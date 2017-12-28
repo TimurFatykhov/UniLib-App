@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BookCatalogViewController.tableView(_:cellForRowAt:):BookCatalogViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shownBooks">
+            </PersistentString>
+            <PersistentString
+               value = "numberOfRows">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BookCatalogViewController.searchBookRequest(searchReq:):BookCatalogViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "findedBooks">
+            </PersistentString>
+            <PersistentString
+               value = "String(response)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AuthorsCell.addAuthor():AuthorsCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textFields">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBookViewController.tableView(_:cellForRowAt:):NewBookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "authorCells.count">
+            </PersistentString>
+            <PersistentString
+               value = "authorCells">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "authors.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BookCatalogViewController.prepare(for:sender:):BookCatalogViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexOfSelectedRow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBookViewController.tableView(_:didSelectRowAt:):NewBookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "authors.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBookViewController.tableView(_:numberOfRowsInSection:):NewBookViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "authorsCells.count + 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogInViewController.prepare(for:sender:):LogInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination">
+            </PersistentString>
+            <PersistentString
+               value = "BookCatalogViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

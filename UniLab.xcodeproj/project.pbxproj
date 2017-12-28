@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160A9AAC1FAD93ED003EA08B /* withBooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 160A9AA91FAD93EC003EA08B /* withBooks.png */; };
+		160A9AAD1FAD93ED003EA08B /* noBooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 160A9AAA1FAD93ED003EA08B /* noBooks.png */; };
+		160A9AAE1FAD93ED003EA08B /* pushkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 160A9AAB1FAD93ED003EA08B /* pushkin.jpg */; };
+		169F5FC11F70E85D005429C2 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5FC01F70E85D005429C2 /* BookCell.swift */; };
+		16B651A41F696313008BA154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651A31F696313008BA154 /* AppDelegate.swift */; };
+		16B651A91F696313008BA154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B651A71F696313008BA154 /* Main.storyboard */; };
+		16B651AC1F696313008BA154 /* UniLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16B651AA1F696313008BA154 /* UniLab.xcdatamodeld */; };
+		16B651AE1F696313008BA154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B651AD1F696313008BA154 /* Assets.xcassets */; };
+		16B651B11F696313008BA154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B651AF1F696313008BA154 /* LaunchScreen.storyboard */; };
+		16B651BC1F696313008BA154 /* UniLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651BB1F696313008BA154 /* UniLabTests.swift */; };
+		16B651C71F696313008BA154 /* UniLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651C61F696313008BA154 /* UniLabUITests.swift */; };
+		16B651DC1F696569008BA154 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651DB1F696569008BA154 /* LogInViewController.swift */; };
+		16B651DE1F696595008BA154 /* BookInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651DD1F696595008BA154 /* BookInfoViewController.swift */; };
+		16B651E01F6965AE008BA154 /* BookCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651DF1F6965AE008BA154 /* BookCatalogViewController.swift */; };
+		16B651E21F6965C7008BA154 /* NewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B651E11F6965C7008BA154 /* NewBookViewController.swift */; };
+		16D68D8A1F697D61006BA976 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D68D891F697D61006BA976 /* NewUserViewController.swift */; };
+		16D68D8C1F69871A006BA976 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D68D8B1F69871A006BA976 /* Extensions.swift */; };
+		16E8CB241FBB398A00C98BDA /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8CB231FBB398A00C98BDA /* CurrentUser.swift */; };
+		16EB4AB31FB61FEE00808933 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EB4AB21FB61FEE00808933 /* Alamofire.framework */; };
+		16EB4AB51FB621EF00808933 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EB4AB41FB621EF00808933 /* PhoneNumberKit.framework */; };
+		16EC35EE1FC065CD00C7A5CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC35ED1FC065CD00C7A5CA /* Constants.swift */; };
+		16F7EA4B1F794EFE00DA2FEE /* BookInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7EA4A1F794EFE00DA2FEE /* BookInfoCell.swift */; };
+		16F7EA4D1F794F2300DA2FEE /* AuthorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7EA4C1F794F2300DA2FEE /* AuthorsCell.swift */; };
+		16F7EA4F1F794F3500DA2FEE /* AddAuthorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7EA4E1F794F3500DA2FEE /* AddAuthorCell.swift */; };
+		16FB47151FC1BB9A00F93675 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB47141FC1BB9A00F93675 /* Book.swift */; };
+		16FB47171FC1BBBE00F93675 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB47161FC1BBBE00F93675 /* Delegates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B651B81F696313008BA154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B651981F696313008BA154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B6519F1F696313008BA154;
+			remoteInfo = UniLab;
+		};
+		16B651C31F696313008BA154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B651981F696313008BA154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B6519F1F696313008BA154;
+			remoteInfo = UniLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160A9AA91FAD93EC003EA08B /* withBooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = withBooks.png; sourceTree = "<group>"; };
+		160A9AAA1FAD93ED003EA08B /* noBooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noBooks.png; sourceTree = "<group>"; };
+		160A9AAB1FAD93ED003EA08B /* pushkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pushkin.jpg; sourceTree = "<group>"; };
+		169F5FC01F70E85D005429C2 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		16B651A01F696313008BA154 /* UniLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B651A31F696313008BA154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = UniLab/AppDelegate.swift; sourceTree = "<group>"; };
+		16B651A81F696313008BA154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16B651AB1F696313008BA154 /* UniLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniLab.xcdatamodel; sourceTree = "<group>"; };
+		16B651AD1F696313008BA154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = UniLab/Assets.xcassets; sourceTree = "<group>"; };
+		16B651B01F696313008BA154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16B651B21F696313008BA154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = UniLab/Info.plist; sourceTree = "<group>"; };
+		16B651B71F696313008BA154 /* UniLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B651BB1F696313008BA154 /* UniLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniLabTests.swift; sourceTree = "<group>"; };
+		16B651BD1F696313008BA154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B651C21F696313008BA154 /* UniLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B651C61F696313008BA154 /* UniLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniLabUITests.swift; sourceTree = "<group>"; };
+		16B651C81F696313008BA154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B651DB1F696569008BA154 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		16B651DD1F696595008BA154 /* BookInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookInfoViewController.swift; sourceTree = "<group>"; };
+		16B651DF1F6965AE008BA154 /* BookCatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCatalogViewController.swift; sourceTree = "<group>"; };
+		16B651E11F6965C7008BA154 /* NewBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBookViewController.swift; sourceTree = "<group>"; };
+		16D68D891F697D61006BA976 /* NewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		16D68D8B1F69871A006BA976 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		16E8CB231FBB398A00C98BDA /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		16EB4AB21FB61FEE00808933 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		16EB4AB41FB621EF00808933 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneNumberKit.framework; path = Carthage/Build/iOS/PhoneNumberKit.framework; sourceTree = "<group>"; };
+		16EC35ED1FC065CD00C7A5CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		16F7EA4A1F794EFE00DA2FEE /* BookInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfoCell.swift; sourceTree = "<group>"; };
+		16F7EA4C1F794F2300DA2FEE /* AuthorsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsCell.swift; sourceTree = "<group>"; };
+		16F7EA4E1F794F3500DA2FEE /* AddAuthorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAuthorCell.swift; sourceTree = "<group>"; };
+		16FB47141FC1BB9A00F93675 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		16FB47161FC1BBBE00F93675 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B6519D1F696313008BA154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EB4AB31FB61FEE00808933 /* Alamofire.framework in Frameworks */,
+				16EB4AB51FB621EF00808933 /* PhoneNumberKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B651B41F696313008BA154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B651BF1F696313008BA154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B651971F696313008BA154 = {
+			isa = PBXGroup;
+			children = (
+				16EB4AB41FB621EF00808933 /* PhoneNumberKit.framework */,
+				16EB4AB21FB61FEE00808933 /* Alamofire.framework */,
+				16EC35EC1FC065AC00C7A5CA /* Shared things */,
+				16B651A21F696313008BA154 /* UniLab */,
+				16B651BA1F696313008BA154 /* UniLabTests */,
+				16B651C51F696313008BA154 /* UniLabUITests */,
+				16B651A11F696313008BA154 /* Products */,
+				16B651D81F696495008BA154 /* So importans things */,
+			);
+			sourceTree = "<group>";
+		};
+		16B651A11F696313008BA154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B651A01F696313008BA154 /* UniLab.app */,
+				16B651B71F696313008BA154 /* UniLabTests.xctest */,
+				16B651C21F696313008BA154 /* UniLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B651A21F696313008BA154 /* UniLab */ = {
+			isa = PBXGroup;
+			children = (
+				16B651AA1F696313008BA154 /* UniLab.xcdatamodeld */,
+				16B651A71F696313008BA154 /* Main.storyboard */,
+				16B651D41F696398008BA154 /* LogIn */,
+				16D68D881F697D26006BA976 /* NewUser */,
+				16B651D51F6963B1008BA154 /* BookCatalog */,
+				16B651D61F6963EC008BA154 /* BookInfo */,
+				16B651D71F69640F008BA154 /* NewBook */,
+				16D68D821F697371006BA976 /* Images */,
+			);
+			path = UniLab;
+			sourceTree = "<group>";
+		};
+		16B651BA1F696313008BA154 /* UniLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				16B651BB1F696313008BA154 /* UniLabTests.swift */,
+				16B651BD1F696313008BA154 /* Info.plist */,
+			);
+			path = UniLabTests;
+			sourceTree = "<group>";
+		};
+		16B651C51F696313008BA154 /* UniLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16B651C61F696313008BA154 /* UniLabUITests.swift */,
+				16B651C81F696313008BA154 /* Info.plist */,
+			);
+			path = UniLabUITests;
+			sourceTree = "<group>";
+		};
+		16B651D41F696398008BA154 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				16B651DB1F696569008BA154 /* LogInViewController.swift */,
+			);
+			name = LogIn;
+			sourceTree = "<group>";
+		};
+		16B651D51F6963B1008BA154 /* BookCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				16B651DF1F6965AE008BA154 /* BookCatalogViewController.swift */,
+				169F5FC01F70E85D005429C2 /* BookCell.swift */,
+			);
+			name = BookCatalog;
+			sourceTree = "<group>";
+		};
+		16B651D61F6963EC008BA154 /* BookInfo */ = {
+			isa = PBXGroup;
+			children = (
+				16B651DD1F696595008BA154 /* BookInfoViewController.swift */,
+			);
+			name = BookInfo;
+			sourceTree = "<group>";
+		};
+		16B651D71F69640F008BA154 /* NewBook */ = {
+			isa = PBXGroup;
+			children = (
+				16B651E11F6965C7008BA154 /* NewBookViewController.swift */,
+				16F7EA491F794ED900DA2FEE /* Cells */,
+			);
+			name = NewBook;
+			sourceTree = "<group>";
+		};
+		16B651D81F696495008BA154 /* So importans things */ = {
+			isa = PBXGroup;
+			children = (
+				16B651B21F696313008BA154 /* Info.plist */,
+				16B651A31F696313008BA154 /* AppDelegate.swift */,
+				16B651AD1F696313008BA154 /* Assets.xcassets */,
+				16B651AF1F696313008BA154 /* LaunchScreen.storyboard */,
+			);
+			name = "So importans things";
+			sourceTree = "<group>";
+		};
+		16D68D821F697371006BA976 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				160A9AAA1FAD93ED003EA08B /* noBooks.png */,
+				160A9AAB1FAD93ED003EA08B /* pushkin.jpg */,
+				160A9AA91FAD93EC003EA08B /* withBooks.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		16D68D881F697D26006BA976 /* NewUser */ = {
+			isa = PBXGroup;
+			children = (
+				16D68D891F697D61006BA976 /* NewUserViewController.swift */,
+			);
+			name = NewUser;
+			sourceTree = "<group>";
+		};
+		16E8CB251FBB399000C98BDA /* Singltons */ = {
+			isa = PBXGroup;
+			children = (
+				16E8CB231FBB398A00C98BDA /* CurrentUser.swift */,
+			);
+			path = Singltons;
+			sourceTree = "<group>";
+		};
+		16EC35EC1FC065AC00C7A5CA /* Shared things */ = {
+			isa = PBXGroup;
+			children = (
+				16E8CB251FBB399000C98BDA /* Singltons */,
+				16EC35ED1FC065CD00C7A5CA /* Constants.swift */,
+				16D68D8B1F69871A006BA976 /* Extensions.swift */,
+				16FB47141FC1BB9A00F93675 /* Book.swift */,
+				16FB47161FC1BBBE00F93675 /* Delegates.swift */,
+			);
+			path = "Shared things";
+			sourceTree = "<group>";
+		};
+		16F7EA491F794ED900DA2FEE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				16F7EA4A1F794EFE00DA2FEE /* BookInfoCell.swift */,
+				16F7EA4C1F794F2300DA2FEE /* AuthorsCell.swift */,
+				16F7EA4E1F794F3500DA2FEE /* AddAuthorCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B6519F1F696313008BA154 /* UniLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B651CB1F696313008BA154 /* Build configuration list for PBXNativeTarget "UniLab" */;
+			buildPhases = (
+				16B6519C1F696313008BA154 /* Sources */,
+				16B6519D1F696313008BA154 /* Frameworks */,
+				16B6519E1F696313008BA154 /* Resources */,
+				16F7F1FD1FB61DD600CDB2F6 /* Alamofire and PhoneNumberKit */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniLab;
+			productName = UniLab;
+			productReference = 16B651A01F696313008BA154 /* UniLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16B651B61F696313008BA154 /* UniLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B651CE1F696313008BA154 /* Build configuration list for PBXNativeTarget "UniLabTests" */;
+			buildPhases = (
+				16B651B31F696313008BA154 /* Sources */,
+				16B651B41F696313008BA154 /* Frameworks */,
+				16B651B51F696313008BA154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B651B91F696313008BA154 /* PBXTargetDependency */,
+			);
+			name = UniLabTests;
+			productName = UniLabTests;
+			productReference = 16B651B71F696313008BA154 /* UniLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16B651C11F696313008BA154 /* UniLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B651D11F696313008BA154 /* Build configuration list for PBXNativeTarget "UniLabUITests" */;
+			buildPhases = (
+				16B651BE1F696313008BA154 /* Sources */,
+				16B651BF1F696313008BA154 /* Frameworks */,
+				16B651C01F696313008BA154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B651C41F696313008BA154 /* PBXTargetDependency */,
+			);
+			name = UniLabUITests;
+			productName = UniLabUITests;
+			productReference = 16B651C21F696313008BA154 /* UniLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B651981F696313008BA154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Тимур Фатыхов";
+				TargetAttributes = {
+					16B6519F1F696313008BA154 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9K23F99UAT;
+						ProvisioningStyle = Automatic;
+					};
+					16B651B61F696313008BA154 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9K23F99UAT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16B6519F1F696313008BA154;
+					};
+					16B651C11F696313008BA154 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9K23F99UAT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16B6519F1F696313008BA154;
+					};
+				};
+			};
+			buildConfigurationList = 16B6519B1F696313008BA154 /* Build configuration list for PBXProject "UniLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B651971F696313008BA154;
+			productRefGroup = 16B651A11F696313008BA154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B6519F1F696313008BA154 /* UniLab */,
+				16B651B61F696313008BA154 /* UniLabTests */,
+				16B651C11F696313008BA154 /* UniLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B6519E1F696313008BA154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B651B11F696313008BA154 /* LaunchScreen.storyboard in Resources */,
+				160A9AAC1FAD93ED003EA08B /* withBooks.png in Resources */,
+				16B651AE1F696313008BA154 /* Assets.xcassets in Resources */,
+				160A9AAD1FAD93ED003EA08B /* noBooks.png in Resources */,
+				160A9AAE1FAD93ED003EA08B /* pushkin.jpg in Resources */,
+				16B651A91F696313008BA154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B651B51F696313008BA154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B651C01F696313008BA154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16F7F1FD1FB61DD600CDB2F6 /* Alamofire and PhoneNumberKit */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PhoneNumberKit.framework",
+			);
+			name = "Alamofire and PhoneNumberKit";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B6519C1F696313008BA154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F5FC11F70E85D005429C2 /* BookCell.swift in Sources */,
+				16B651AC1F696313008BA154 /* UniLab.xcdatamodeld in Sources */,
+				16B651DE1F696595008BA154 /* BookInfoViewController.swift in Sources */,
+				16B651A41F696313008BA154 /* AppDelegate.swift in Sources */,
+				16D68D8C1F69871A006BA976 /* Extensions.swift in Sources */,
+				16F7EA4B1F794EFE00DA2FEE /* BookInfoCell.swift in Sources */,
+				16F7EA4F1F794F3500DA2FEE /* AddAuthorCell.swift in Sources */,
+				16B651E01F6965AE008BA154 /* BookCatalogViewController.swift in Sources */,
+				16FB47171FC1BBBE00F93675 /* Delegates.swift in Sources */,
+				16FB47151FC1BB9A00F93675 /* Book.swift in Sources */,
+				16F7EA4D1F794F2300DA2FEE /* AuthorsCell.swift in Sources */,
+				16B651DC1F696569008BA154 /* LogInViewController.swift in Sources */,
+				16B651E21F6965C7008BA154 /* NewBookViewController.swift in Sources */,
+				16EC35EE1FC065CD00C7A5CA /* Constants.swift in Sources */,
+				16D68D8A1F697D61006BA976 /* NewUserViewController.swift in Sources */,
+				16E8CB241FBB398A00C98BDA /* CurrentUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B651B31F696313008BA154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B651BC1F696313008BA154 /* UniLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B651BE1F696313008BA154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B651C71F696313008BA154 /* UniLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16B651B91F696313008BA154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B6519F1F696313008BA154 /* UniLab */;
+			targetProxy = 16B651B81F696313008BA154 /* PBXContainerItemProxy */;
+		};
+		16B651C41F696313008BA154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B6519F1F696313008BA154 /* UniLab */;
+			targetProxy = 16B651C31F696313008BA154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16B651A71F696313008BA154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B651A81F696313008BA154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16B651AF1F696313008BA154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B651B01F696313008BA154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = UniLab;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16B651C91F696313008BA154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16B651CA1F696313008BA154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16B651CC1F696313008BA154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9K23F99UAT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = UniLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.T..UniLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16B651CD1F696313008BA154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9K23F99UAT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = UniLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.T..UniLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		16B651CF1F696313008BA154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9K23F99UAT;
+				INFOPLIST_FILE = UniLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.T..UniLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniLab.app/UniLab";
+			};
+			name = Debug;
+		};
+		16B651D01F696313008BA154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9K23F99UAT;
+				INFOPLIST_FILE = UniLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.T..UniLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniLab.app/UniLab";
+			};
+			name = Release;
+		};
+		16B651D21F696313008BA154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9K23F99UAT;
+				INFOPLIST_FILE = UniLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.T..UniLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UniLab;
+			};
+			name = Debug;
+		};
+		16B651D31F696313008BA154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9K23F99UAT;
+				INFOPLIST_FILE = UniLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.T..UniLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UniLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B6519B1F696313008BA154 /* Build configuration list for PBXProject "UniLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B651C91F696313008BA154 /* Debug */,
+				16B651CA1F696313008BA154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B651CB1F696313008BA154 /* Build configuration list for PBXNativeTarget "UniLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B651CC1F696313008BA154 /* Debug */,
+				16B651CD1F696313008BA154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B651CE1F696313008BA154 /* Build configuration list for PBXNativeTarget "UniLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B651CF1F696313008BA154 /* Debug */,
+				16B651D01F696313008BA154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B651D11F696313008BA154 /* Build configuration list for PBXNativeTarget "UniLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B651D21F696313008BA154 /* Debug */,
+				16B651D31F696313008BA154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16B651AA1F696313008BA154 /* UniLab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16B651AB1F696313008BA154 /* UniLab.xcdatamodel */,
+			);
+			currentVersion = 16B651AB1F696313008BA154 /* UniLab.xcdatamodel */;
+			path = UniLab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16B651981F696313008BA154 /* Project object */;
+}
